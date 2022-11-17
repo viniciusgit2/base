@@ -8,7 +8,7 @@ export interface EntradaProps{
     export default function Entrada(props:EntradaProps){
     
     return (
-        <div>
+        <div className="bg bg-green-600">
             <label>
                 {  props.texto}
             </label>
