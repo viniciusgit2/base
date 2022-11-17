@@ -5,7 +5,7 @@ import Entrada from "./Entrada";
 export default function Formulario (){
     
     return(
-        <div className="bg-stone-900 text-red-800">hello 
+        <div className=" justify-items-center bg-stone-900 text-red-800 h-fit w-fit">hello 
         <><Entrada type texto={"nome"} onchange></Entrada><Entrada texto="idade"tipo={"number"}></Entrada></>
         </div>
             )

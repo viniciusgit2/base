@@ -1,5 +1,5 @@
 export default function Titulo(){
 
 
-    return <span>Meu titulo</span>
+    return <legend className="text-white rounded-b-full ">titulo</legend>
     }
