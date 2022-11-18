@@ -4,5 +4,5 @@ import Cliente from "../Cliente"
 import React from "react"
 import Titulo from "../Titulo"
  export default function Tabela (){
-return  <table className= " h-screen  justify-items-center text-center  from to-amber-400 text-amber-500   bg-black "><Titulo /> <tr></tr><tr></tr><tr>dados<td><Cliente /></td></tr><tr><td>campos</td><td>id</td><td>idade</td><td>nome</td></tr></table>
+return  <table className= " bg bg-gradient-to-r via-red-500 h-screen  w-full-screen h-f justify-items-center text-center  from to-amber-400 text-amber-500   bg-black "><Titulo /><th></th><tr><span className="bg-white">id idade nome</span></tr><Cliente/><tr></tr> </table>
  }

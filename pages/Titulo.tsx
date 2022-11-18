@@ -1,5 +1,5 @@
 export default function Titulo(){
 
 
-    return <legend className="text-white rounded-b-full ">titulo</legend>
+    return <legend className="text-white rounded-br-lg justify-center">titulo</legend>
     }
