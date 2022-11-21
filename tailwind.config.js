@@ -6,8 +6,13 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   safelist:{
-
+    safelist: [
+      '*bg-',
+      '*from-*',
+      '*to-',
+    ]
   }
+  
 ,
   theme: {
     extend: {},
@@ -15,3 +20,4 @@ module.exports = {
   plugins: [],
 }
 }
+  
