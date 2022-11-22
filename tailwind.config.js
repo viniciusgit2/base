@@ -10,6 +10,7 @@ module.exports = {
       '*bg-',
       '*from-*',
       '*to-',
+      '*via-',
     ]
   }
   

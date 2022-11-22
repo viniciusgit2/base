@@ -1,7 +1,11 @@
 import { useState } from "react";
 import Cliente from "./Cliente";
 import Entrada from "./Entrada";
+interface Formulario{
+    cliente:Cliente
+cancelado():()=> void
 
+}
 export default function Formulario (){
     
     return(
