@@ -1283,6 +1283,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel@npm:^6.23.0":
+  version: 6.23.0
+  resolution: "babel@npm:6.23.0"
+  bin:
+    babel: ./lib/cli.js
+    babel-external-helpers: ./lib/cli.js
+    babel-node: ./lib/cli.js
+  checksum: 129af541cdfa010f09d7c6413a2e0b159f98605195ae05952dfef4d36de22b995536920c09f189676db2304d81faad8203ee787eb12029d89a9a59136beda488
+  languageName: node
+  linkType: hard
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
@@ -4310,6 +4321,7 @@ next@latest:
     "@types/node": ^18.11.9
     "@types/react": 18.0.25
     "@types/react-dom": 18.0.9
+    babel: ^6.23.0
     firebase: ^9.14.0
     next: latest
     postcss-preset-env: ^7.8.2

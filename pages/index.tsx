@@ -2,12 +2,15 @@ import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/Layout";
 import Titulo from "./Titulo";
+import Tabela from "./users/Tabela";
 export function IndexPage() {
   const[visivel,setvisivel]=useState<'Tabela' |'Formulario'>("Tabela")
   return (
+    <>
     <Layout title="Home | Next.js + TypeScript Example">
       <div className="text-neutral-500">hello </div>
-      {visivel==='Tabela'}
+      
+    {visivel==="Tabela"}
 <>
       <div className="bg-black border-r-emerald-500 text-red-700">
         {" "}
@@ -31,9 +34,11 @@ export function IndexPage() {
         por enquanto falso botao
       </div>
       </>
+      
       </Layout>
-    
-  );
+      </>
+    )
+  ;
 }
 
 export default IndexPage;

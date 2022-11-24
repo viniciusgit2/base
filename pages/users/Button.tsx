@@ -5,5 +5,5 @@ classname:any
 onCliick:()=>void
 }
 export default function button(props:buttonprops){
-return (<button onClick={props.onCliick}>{props.childrem}</button>)    
+return (<button onClick ={props.onCliick}  className={"bg-black to-r px4-py2 rounded-md "} >{props.childrem} </button>)    
 }

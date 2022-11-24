@@ -7,10 +7,10 @@ module.exports = {
   ],
   safelist:{
     safelist: [
-      '*bg-',
+      '*bg-*',
       '*from-*',
-      '*to-',
-      '*via-',
+      '*to-*',
+      '*via-*',
     ]
   }
   
