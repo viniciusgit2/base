@@ -22,13 +22,16 @@
      public set idade(value: Number) {
          this.idade = value
      }
-     constructor(id=String,idade=Number,nome=String ){
-        this.id=this.#id
-this.#nome=this.#nome
-this.#idade=this.idade
+     constructor( idade:Number,nome:String,id:String=null  ){
+        this.#id=id
+this.#nome=nome
+this.#idade=idade
+
+
      }
-     static vazio(): Cliente{
-        return new Cliente("U","",0)
+  static vazio(Cliente){
+return new Cliente("","",10)
+  }
      }
 
-    }
+    

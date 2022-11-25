@@ -2,9 +2,16 @@ import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/Layout";
 import Titulo from "./Titulo";
-import Tabela from "./users/Tabela";
+import Tabela from "./Tabela";
+import Cliente from "./Cliente";
 export function IndexPage() {
   const[visivel,setvisivel]=useState<'Tabela' |'Formulario'>("Tabela")
+  const clientes=[
+    new Cliente(34,'1',"1"),
+    new Cliente(45,'1',"1"),
+    new Cliente(56,'1',"1"),
+    new Cliente(64,'1',"1")
+  ]
   return (
     <>
     <Layout title="Home | Next.js + TypeScript Example">
@@ -19,7 +26,8 @@ export function IndexPage() {
 
       <div className="bg-black border-r-emerald-500 text-red-700">
         {" "}
-        <Link href="/users/Tabela">Tabela</Link>
+      
+      
       </div>
       <div className="bg-black border-r-emerald-500 text-red-700">
         
@@ -29,9 +37,10 @@ export function IndexPage() {
         
         <Link href="Titulo">Titulo</Link>
       </div>
+
+      <Tabela clientes={clientes}></Tabela>
       <div>
-        <button className="bg-emerald-600 text to-white px-4 py-2 rounded-md "onClick={()=>setvisivel("Formulario")} />
-        por enquanto falso botao
+      <Link href="./Tabela">tABELA</Link>
       </div>
       </>
       
