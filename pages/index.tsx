@@ -38,7 +38,7 @@ export function IndexPage() {
         <Link href="Titulo">Titulo</Link>
       </div>
 
-      <Tabela clientes={clientes}></Tabela>
+      <Tabela Cliente={clientes}></Tabela>
       <div>
       <Link href="./Tabela">tABELA</Link>
       </div>

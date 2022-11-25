@@ -17,13 +17,10 @@ export default function Tabela(props: TabelaProps) {
      
     </div>
   );
+
+function renderizar1() {
+  return(
+    {Cliente}
+  )
 }
-function renderizar1(Props: TabelaProps) {
-  return Props.Cliente?.map((Cliente, i) => {
-    <tr key={Cliente.id}>
-      <td>{Cliente.id}</td>
-      <td>{Cliente.nome}</td>
-      <td>{Cliente.idade}</td>
-    </tr>;
-  });
 }

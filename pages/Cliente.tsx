@@ -30,7 +30,7 @@ this.#idade=idade
 
      }
   static vazio(Cliente){
-return new Cliente("","",10)
+return new Cliente("U","U",10)
   }
      }
 
