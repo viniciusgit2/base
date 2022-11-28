@@ -10,17 +10,17 @@
      }
      #nome: String
      public get nome(): String {
-         return this.nome
+         return this.#nome
      }
      public set nome(value: String) {
-         this.nome = value
+         this.#nome = value
      }
 #idade: Number
      public get idade(): Number {
-         return this.idade
+         return this.#idade
      }
      public set idade(value: Number) {
-         this.idade = value
+         this.#idade = value
      }
      constructor( idade:Number,nome:String,id:String=null  ){
         this.#id=id
@@ -30,7 +30,7 @@ this.#idade=idade
 
      }
   static vazio(Cliente){
-return new Cliente("U","U",10)
+return new Cliente(10,"fulano","")
   }
      }
 

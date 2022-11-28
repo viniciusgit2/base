@@ -7,17 +7,17 @@ import Cliente from "./Cliente";
 export function IndexPage() {
   const[visivel,setvisivel]=useState<'Tabela' |'Formulario'>("Tabela")
   const clientes=[
-    new Cliente(34,'1',"1"),
-    new Cliente(45,'1',"1"),
-    new Cliente(56,'1',"1"),
-    new Cliente(64,'1',"1")
+    new Cliente(34,'1',"u"),
+    new Cliente(45,'2',"1"),
+    new Cliente(56,'3',"1"),
+    new Cliente(64,'4',"1"),
   ]
   return (
     <>
     <Layout title="Home | Next.js + TypeScript Example">
       <div className="text-neutral-500">hello </div>
       
-    {visivel==="Tabela"}
+ 
 <>
       <div className="bg-black border-r-emerald-500 text-red-700">
         {" "}
@@ -38,7 +38,7 @@ export function IndexPage() {
         <Link href="Titulo">Titulo</Link>
       </div>
 
-      <Tabela Cliente={clientes}></Tabela>
+      <Tabela clientes={clientes} ></Tabela>
       <div>
       <Link href="./Tabela">tABELA</Link>
       </div>
