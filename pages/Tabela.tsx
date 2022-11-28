@@ -32,6 +32,6 @@ function renderizar1() {
  
 } 
 function renderizar2(clientes){
-  return (clientes=[34,"u",""])
+  return (clientes=[34,"u","10"])
 }
 }
