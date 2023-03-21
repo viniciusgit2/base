@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Cliente from "./Cliente";
 import Entrada from "./Entrada";
 interface Formulario{
