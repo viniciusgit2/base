@@ -4,30 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sanduiche</title>
+    <title>parcialmente certo "só o make nao vai"</title>
 </head>
 
 <body>
-    <button id="btn">click me</button>
+    <button id="btn">click aqui</button>
     <script>
-    sanduiche={pao:"queijo",queijo:"chedder"
-,prepare:function(){
- return 'eu quero sanduiche'+sanduiche   
-},make :function(){
-window.setTimeout(()=>{}
-,console.log(this.prepare)
-)
+   const  sanduiche={pao:`branco`,queijo:`chedder`
+   ,prepare:function(){
+    return `eu quero um sanduiche com${sanduiche}`
+   },
+make:function(){
+window.setTimeout(function(){console.log(this),500})
+
 }
-    
+
 }
-    
-const btn=document.getElementById("btn")
-btn.addEventListener("click",()=>{})
-console.log(btn)
-
-
-
-
+   const btn=document.getElementById(`btn`)
+   btn.addEventListener(`click aqui`,function(){sanduiche.make()})
     </script>
 </script>
 </body>
