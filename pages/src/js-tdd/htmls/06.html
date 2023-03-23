@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kkk vou pular por que nao lembro a tecla das aspas especial</title>
+    <title> no console buscando as funçoes conforme o navegador vai</title>
 </head>
 <body>
   <script>
-    const markup=
-    <article>
-    <Headers>
-        <h1>${article.title}</h1>
-        </Headers>
-        <section>
-            <p>
-                ${article.title}
-                </p>
-            </section>
-            <footer>
-                <ul>
-                    ${article.tags.map((tag)=><li>${tag}</li>).join}
-                    </ul>
-                </footer>
-        </article>
-
-  </script>  
+    const article={
+      title:"template string",
+      intro:"como usar template string do es6",
+      body:"tanto faz",
+      tags:[`es6`,`js`,`template-literal`],
+      author:`william`
+    }
+    function renderauthor(nome){
+      return(nome)?nome:`desconhecido`
+    }
+    const markup=`<article> <headher>
+      <h1>${article.title}</h1>
+        </headher>
+        <session>
+            <p>${article.intro}
+              </p>
+              </section>
+              <footer>
+                <ul${article.tags.map((tag)=>`<li>${tag}</li`)}>.join('')
+                  </ul>
+                  $<p>author</p>{renderauthor(article.author)}
+                  </footer>
+                  </article>      
+                  ` 
+  </script>
 </body>
 </html>
