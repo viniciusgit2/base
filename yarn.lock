@@ -545,8 +545,8 @@ __metadata:
   linkType: hard
 
 "@grpc/proto-loader@npm:^0.7.0":
-  version: 0.7.5
-  resolution: "@grpc/proto-loader@npm:0.7.5"
+  version: 0.7.6
+  resolution: "@grpc/proto-loader@npm:0.7.6"
   dependencies:
     "@types/long": ^4.0.1
     lodash.camelcase: ^4.3.0
@@ -555,7 +555,7 @@ __metadata:
     yargs: ^16.2.0
   bin:
     proto-loader-gen-types: build/bin/proto-loader-gen-types.js
-  checksum: ca3a16fc18526a835d006802d15dcf21cb3e2a7a803a988bf34397ebeb07ae94062b3f06db3d1a9b8ec3c40bd96354ca69d9e2ac06ef4c3a74a990d9e55ca2fd
+  checksum: cc42649cf65c74f627ac80b1f3ed275c4cf96dbc27728cc887e91e217c69a3bd6b94dfa7571725a94538d84735af53d35e9583cc77eb65f3c035106216cc4a1b
   languageName: node
   linkType: hard
 
@@ -852,10 +852,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0, @types/node@npm:^18.15.5":
-  version: 18.15.5
-  resolution: "@types/node@npm:18.15.5"
-  checksum: 5fbf3453bd5ce1402bb2964e55d928fc8a8a7de5451b1b0fe66587fecb8a3eb86854ca9cefa5076a5971e2cff00e1773ceeb5d872a54f6c6ddfbbc1064b4e91a
+"@types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0, @types/node@npm:^18.15.7":
+  version: 18.15.7
+  resolution: "@types/node@npm:18.15.7"
+  checksum: 08d1dd1898be10cd274955ed7f491bcab5b7e70ce66b6a1e996a582d5467f7517046b0d9c5f4e15871df94dd72d1ad9e7be236d2cff1a1450ec906d7fa3062d2
   languageName: node
   linkType: hard
 
@@ -887,9 +887,9 @@ __metadata:
   linkType: hard
 
 "@types/scheduler@npm:*":
-  version: 0.16.2
-  resolution: "@types/scheduler@npm:0.16.2"
-  checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
+  version: 0.16.3
+  resolution: "@types/scheduler@npm:0.16.3"
+  checksum: 2b0aec39c24268e3ce938c5db2f2e77f5c3dd280e05c262d9c2fe7d890929e4632a6b8e94334017b66b45e4f92a5aa42ba3356640c2a1175fa37bef2f5200767
   languageName: node
   linkType: hard
 
@@ -2799,7 +2799,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@types/node": ^18.15.5
+    "@types/node": ^18.15.7
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
     chai: ^4.3.7
