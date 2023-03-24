@@ -6,6 +6,7 @@
     "start": "next start",
     "type-check": "tsc",
     "prepare": "husky install",
+    "pre-commit": "yarn lint",
     "lint": "eslint"
   },
   "dependencies": {
