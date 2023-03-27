@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class extends</title>
+</head>
+<body>
+    <script>
+       class animal{
+        constructor(nome){
+            this.nome=nome
+
+        }
+        hallo(){
+            console.log(`i am ${this.nome}`)
+        }
+    
+       }
+     class Dog extends animal{
+        constructor(nome,sound){
+        super(nome)    
+        this.sound=sound
+
+        }
+        bark(){
+            console.log(`${this.sound}iam ${this.nome}`)
+
+        }
+        
+     }
+     const elepafante=new animal(`dumbo`)
+     const dog=new Dog(`jake,auau`)
+
+    </script>
+</body>
+</html>

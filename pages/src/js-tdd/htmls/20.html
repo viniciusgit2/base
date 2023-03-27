@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais promisses</title>
+</head>
+<body>
+<script>
+    const current=new Promise((resolve, reject) => {
+        setTimeout(()=>{
+resolve({current:'euro',value:3.50}
+         ),200 }
+     ) })
+     const countrires=new Promise((resolve,reject)=> {
+        setTimeout(()=>{
+resolve(['irland','england','euro','scotland',]
+         ),200 }
+     ) })
+     Promise
+     .all([current,countrires])
+     .then(Response=>{console.log(Response)})
+</script>
+</body>
+</html>
