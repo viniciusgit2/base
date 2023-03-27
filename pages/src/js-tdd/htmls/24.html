@@ -7,6 +7,17 @@
     <title>simbolo</title>
 </head>
 <body>
-    
+  <script>
+    let foo=Symbol(`nome`)
+    let barr=Symbol(`nome`)
+    let obj={
+        [Symbol(`nome`)]:`william`,
+        [Symbol(`age`)]:`26`,city:`dubllin`,
+
+    }
+    const Symbols=Object.getOwnPropertySymbols(obj)
+const data=Symbols.map(Symbols => obj[Symbols])
+console.log(data)
+  </script>  
 </body>
 </html>

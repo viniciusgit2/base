@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yield controla os primeiro nome se deletar 2  de baixo fic ciomo se fosse um só name</title>
+</head>
+<body>
+<script>
+    function* gennomes(){
+        console.log(`chamado primeiro nome`)
+        yield `william`
+        yield `jonas`
+        yield `gabriel`
+    }
+    const names= gennomes()
+    console.log(names.next())
+    console.log(names.next())
+
+    console.log(names.next())
+
+</script>
+</body>
+</html>
