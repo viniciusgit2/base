@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nao vai por que a pagina saiu do ar</title>
+</head>
+<body>
+<script>
+    function ajax(url){
+        fetch(url)
+        .then(data =>data.json())
+        .then(data =>console.log(data))
+    }
+        function ajaxGen(){
+            console.log(`buscando post ...`)
+ajax(`https://willianjusten.com.br/search.json`)
+console.log(`buscando dados ...`)
+        }
+        ajaxGen();
+</script>
+</body>
+</html>
