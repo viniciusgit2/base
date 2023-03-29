@@ -7,7 +7,7 @@
     "type-check": "tsc",
     "prepare": "husky install",
     "pre-commit": "yarn lint",
-    "lint": "eslint"
+    "lint": "./node_modules/.bin/eslint pages/src/calculadora-basica/*.js"
   },
   "dependencies": {
     "firebase": "^9.18.0",
