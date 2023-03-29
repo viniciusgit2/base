@@ -9,7 +9,7 @@ describe(`smoke-tests`,function(){
     }
     )
     it (`should exist the method sum`,function(){
-        expect(sub).to.exist
+        expect(calc.sub).to.exist
 
     }
     )

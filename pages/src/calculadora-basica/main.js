@@ -4,3 +4,6 @@ const b=2
 function sun(){
 return a+b
 }
+function sub(){
+    return a-b
+    }
