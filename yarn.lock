@@ -1389,7 +1389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.57.0":
+"@typescript-eslint/eslint-plugin@npm:latest":
   version: 5.57.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.57.0"
   dependencies:
@@ -1413,7 +1413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.57.0":
+"@typescript-eslint/parser@npm:latest":
   version: 5.57.0
   resolution: "@typescript-eslint/parser@npm:5.57.0"
   dependencies:
@@ -3161,7 +3161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.32.2":
+"eslint-plugin-react@npm:latest":
   version: 7.32.2
   resolution: "eslint-plugin-react@npm:7.32.2"
   dependencies:
@@ -3213,7 +3213,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.37.0":
+"eslint@npm:latest":
   version: 8.37.0
   resolution: "eslint@npm:8.37.0"
   dependencies:
@@ -6097,13 +6097,13 @@ __metadata:
     "@types/node": ^18.15.11
     "@types/react": 18.0.31
     "@types/react-dom": 18.0.11
-    "@typescript-eslint/eslint-plugin": ^5.57.0
-    "@typescript-eslint/parser": ^5.57.0
+    "@typescript-eslint/eslint-plugin": latest
+    "@typescript-eslint/parser": latest
     autoprefixer: ^10.4.14
     babel-preset-env: ^1.7.0
     chai: ^4.3.7
-    eslint: ^8.37.0
-    eslint-plugin-react: ^7.32.2
+    eslint: latest
+    eslint-plugin-react: latest
     firebase: ^9.19.0
     husky: ^8.0.3
     mocha: ^10.2.0
