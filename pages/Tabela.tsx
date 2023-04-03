@@ -31,7 +31,7 @@ function renderizar1() {
   </table>)
  
 } 
-function renderizar2(clientes){
-  return (clientes=[34,"u","10"])
+function renderizar2(Cliente){
+  return (Cliente=[34,"u","10"])
 }
 }

@@ -8,7 +8,6 @@
     "prepare": "husky install",
     "pre-commit": "yarn lint",
     "lint": "./node_modules/.bin/eslint pages/src/calculadora-basica/*.js"
-    
   },
   "dependencies": {
     "firebase": "^9.19.0",
@@ -33,6 +32,7 @@
     "eslint": "latest",
     "eslint-plugin-react": "latest",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
     "mocha": "^10.2.0",
     "node-fetch": "^3.3.1",
     "postcss": "^8.4.21",

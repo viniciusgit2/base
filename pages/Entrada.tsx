@@ -1,18 +1,18 @@
-export interface EntradaProps{
-    tipo:'text'&"number"
-     texto;String
+
+export interface base{
+    tipo:string & number
+     texto:String
     valor:any
     
-    
     }
-    export default function Entrada(props:EntradaProps){
+    export const Entrada =( base) => {
     
     return (
         <div className="bg bg-green-600">
             <label>
-                {  props.texto}
+                {base.tipo}
             </label>
-            <input type={props.tipo ??"text" } value={props.valor} >
+            <input type={base.texto} value={base.valor} >
         
             </input>
            

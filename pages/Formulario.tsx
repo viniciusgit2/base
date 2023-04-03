@@ -1,5 +1,7 @@
+
 import Cliente from "./Cliente";
-import Entrada from "./Entrada";
+import {Entrada  } from './Entrada'
+import { base } from "./Entrada";
 interface Formulario{
     cliente:Cliente
 cancelado():()=> void
@@ -8,8 +10,8 @@ cancelado():()=> void
 export default function Formulario (){
     
     return(
-        <div className=" justify-items-center bg-stone-900 text-red-800 h-fit w-fit">digite abaixo
-    <Entrada type texto={"nome"} onchange></Entrada><Entrada texto="idade"tipo={"number"}></Entrada>
+        < div className=" justify-items-center bg-stone-900 text-red-800 h-fit w-fit">
+ 
         </div>
             )
             }

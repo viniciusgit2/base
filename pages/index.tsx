@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { useState } from "react";
 import Layout from "../components/Layout";
-import Titulo from "./Titulo";
-import Tabela from "./Tabela";
 import Cliente from "./Cliente";
 export default function IndexPage() {
   const[visivel,setvisivel]=useState<'Tabela' |'Formulario'>("Tabela")
