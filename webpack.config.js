@@ -1,3 +1,9 @@
+
+module.export={
+
+}
+
+
 export const entry = './index.js';
 export const output = {
     path: './',
