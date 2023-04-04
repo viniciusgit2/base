@@ -8,6 +8,7 @@
     "prepare": "husky install",
     "pre-commit": "yarn lint",
     "lint": "./node_modules/.bin/eslint pages/src/calculadora-basica/*.js"
+    
   },
   "dependencies": {
     "firebase": "^9.19.0",
