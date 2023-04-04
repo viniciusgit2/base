@@ -7,13 +7,14 @@
     "type-check": "tsc",
     "prepare": "husky install",
     "pre-commit": "yarn lint",
-    "lint": "./node_modules/.bin/eslint pages/src/calculadora-basica/*.js"
-    
+    "lint": "./node_modules/.bin/eslint pages/src/calculadora-basica/*.js",
+    "tdd": "./node_modules/.bin/mocha /**/*.spec.js --require babel-register --watch",
+    "clear": "rimraf lib"
   },
   "dependencies": {
-    "firebase": "^9.19.0",
+    "firebase": "^9.19.1",
     "next": "^13.2.4",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.10.0"
   },
@@ -23,7 +24,7 @@
     "@babel/register": "^7.21.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.11",
-    "@types/react": "18.0.31",
+    "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "@typescript-eslint/eslint-plugin": "5.57.1",
     "@typescript-eslint/parser": "5.57.1",
