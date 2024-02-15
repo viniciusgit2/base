@@ -1277,6 +1277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "@types/react@npm:*, @types/react@npm:18.2.55":
   version: 18.2.55
   resolution: "@types/react@npm:18.2.55"
@@ -1285,6 +1286,16 @@ __metadata:
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/6b1c73beafbbc582dc54ffd92b3779f6d850e8f6b5ce5d04b31e9498a3d77bfc416bb08f0d8d63ab4f4649ccd6639996472416871c01c74a528b16a55faeaf38
+=======
+"@types/react@npm:*, @types/react@npm:18.0.33":
+  version: 18.0.33
+  resolution: "@types/react@npm:18.0.33"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 4fbd2b2b6a26378bdfde121081a6406ec2d39e4ba87ea5f6897ab7bb2198713165e6fd703ad4ed7ba1d4f23ef54a4c9f108f3105c7ed8e136411ee6bdebc5669
+>>>>>>> 0825815b3aa3f5725e197e06fdea83d72f95952f
   languageName: node
   linkType: hard
 
@@ -3503,9 +3514,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
 "firebase@npm:^10.8.0":
   version: 10.8.0
   resolution: "firebase@npm:10.8.0"
+=======
+"firebase@npm:^9.19.1":
+  version: 9.19.1
+  resolution: "firebase@npm:9.19.1"
+>>>>>>> 0825815b3aa3f5725e197e06fdea83d72f95952f
   dependencies:
     "@firebase/analytics": "npm:0.10.1"
     "@firebase/analytics-compat": "npm:0.2.7"
@@ -6078,6 +6095,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+<<<<<<< HEAD
     "@babel/cli": "npm:^7.23.9"
     "@babel/core": "npm:^7.23.9"
     "@babel/register": "npm:^7.23.7"
@@ -6107,6 +6125,37 @@ __metadata:
     smoke: "npm:^3.1.1"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:5.3.3"
+=======
+    "@babel/cli": ^7.21.0
+    "@babel/core": ^7.21.4
+    "@babel/register": ^7.21.0
+    "@types/mocha": ^10.0.1
+    "@types/node": ^18.15.11
+    "@types/react": 18.0.33
+    "@types/react-dom": 18.0.11
+    "@typescript-eslint/eslint-plugin": 5.57.1
+    "@typescript-eslint/parser": 5.57.1
+    autoprefixer: ^10.4.14
+    babel-preset-env: ^1.7.0
+    chai: ^4.3.7
+    eslint: 8.37.0
+    eslint-plugin-react: 7.32.2
+    firebase: ^9.19.1
+    husky: ^8.0.3
+    mocha: ^10.2.0
+    next: ^13.2.4
+    node-fetch: ^3.3.1
+    postcss: ^8.4.21
+    react: ^18.2.0
+    react-dom: 18.2.0
+    react-router-dom: 6.10.0
+    rimraf: ^4.4.1
+    sinon: ^15.0.3
+    sinon-stub-promise: ^4.0.0
+    smoke: ^3.1.1
+    tailwindcss: ^3.3.1
+    typescript: 5.0.3
+>>>>>>> 0825815b3aa3f5725e197e06fdea83d72f95952f
   languageName: unknown
   linkType: soft
 
